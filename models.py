@@ -3,7 +3,7 @@
 from datetime import timedelta
 from openerp import models, fields, api, exceptions
 
-class Course(model.Model):
+class Course(models.Model):
     _name = 'openacademy.course'
 
     name = fields.Char(string="Title", required=True)
